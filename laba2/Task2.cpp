@@ -2,7 +2,8 @@
 using namespace std;
 
 int main() {
-	int days, lost, isStudent;
+	int days;
+	bool lost, isStudent;
 	cout << "Enter the number of overdue days: ";
 	cin >> days;
 	cout << "Enter lost book flag (0/1): ";
